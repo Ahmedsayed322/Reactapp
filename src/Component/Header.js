@@ -14,10 +14,10 @@ function Header() {
       }}
     >
       <nav className="container ">
-        <div className=" container-fluid d-flex justify-content-lg-between flex-column flex-lg-row w-100 text-center ">
+        <div className="d-flex justify-content-lg-between flex-column flex-lg-row w-100 text-center">
           <h2 className="mx-auto my-auto mx-lg-0">Portfolio</h2>
-          <div className="mx-lg-0 mx-auto">
-            <ul className="d-flex justify-content-lg-between links-list justify-content-evenly ">
+          <div className="">
+            <ul className="d-flex justify-content-lg-between links-list justify-content-center w-100">
               <li>
                 <Link className="animation-hover" to="hero-section">
                   <span>Home</span>
