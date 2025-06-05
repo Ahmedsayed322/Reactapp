@@ -11,7 +11,7 @@ function Home() {
       <section
         id="hero-section"
         style={{
-          marginTop: '10rem',
+          marginTop: '5rem',
         }}
       >
         <HeroImage
