@@ -1,0 +1,32 @@
+.pcard {
+  min-height: 250px;
+  margin-top: 1.5rem;
+}
+.card-content {
+  width: 90%;
+  height: 100%;
+  box-shadow: 0 0 20px var(--color1);
+  border: 2px solid var(--color1);
+  border-radius: 15px;
+
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+.project-contnet img {
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+}
+.card-content:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px var(--color2), 0 0 40px var(--color1);
+}
+.project-discription {
+  color: aqua !important;
+}
+
+.nav-link-h {
+  animation: changeangle 3s linear infinite;
+  background: linear-gradient(var(--angle), var(--color1), var(--color2));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
