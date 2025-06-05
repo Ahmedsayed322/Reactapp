@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Store from './redux/reduxStore';
 import { Provider } from 'react-redux';
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={Store}>
