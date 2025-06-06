@@ -61,20 +61,15 @@
   /* animation-play-state: paused;   */
 }
 .header {
-  position: fixed;
-  /* border-radius: 15px; */
+  top: 10px !important;
+  border-radius: 15px !important;
   background-color: #0d0d0d;
-  z-index: 1;
-  top: 10px;
-  margin-bottom: 3rem;
   animation: boxS 3s ease infinite;
   /* box-shadow: 5px 5px 15px 0 var(--color1); */
 }
-@media (min-width:592px){
+@media (max-width: 592px) {
   .header {
-    top: 0;
-    width: 100%;
-    border-radius: 0px;
+    border-radius: 0px !important;
   }
 }
 @keyframes boxS {

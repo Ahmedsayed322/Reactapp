@@ -13,11 +13,11 @@ function Header() {
         width: '100vw',
       }}
     >
-      <nav className="container ">
+      <nav className="container fixed-top header">
         <div className="d-flex justify-content-lg-between flex-column flex-lg-row w-100 text-center">
           <h2 className="mx-auto my-auto mx-lg-0">Portfolio</h2>
-          <div className="">
-            <ul className="d-flex justify-content-lg-between links-list justify-content-center w-100">
+          <div className=" my-lg-auto">
+            <ul className="d-flex justify-content-lg-between links-list justify-content-center  my-lg-auto w-100">
               <li>
                 <Link className="animation-hover" to="hero-section">
                   <span>Home</span>
