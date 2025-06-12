@@ -51,14 +51,14 @@ function HeroImage({ name, title }) {
   }, []);
 
   return (
-    <div className="container-hero">
-      <div className="image">
+    <div className="container d-flex flex-column flex-lg-row ">
+      <div className="image mx-auto">
         <img
           src="Gemini_Generated_Image_5br8to5br8to5br8-Photoroom.png"
           alt="ProgrammerHeroImage"
         />
       </div>
-      <div className="textC">
+      <div className="textC mx-auto">
         <div className="welcome-text">Welcome All In my Portfolio</div>
         <span
           className={`text ${

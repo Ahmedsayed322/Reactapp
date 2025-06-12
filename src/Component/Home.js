@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import HeroImage from './HeroImage';
-
+import './Home.css';
 import Skills from './Skills';
 import Projects from './Projects';
 

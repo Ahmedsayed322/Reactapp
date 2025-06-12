@@ -1,0 +1,20 @@
+/* #hero-section,
+#skills-section,
+#projects-section {
+  animation: fadeInScale 1s ease-out both;
+  animation-delay: 0.3s;
+  transform-origin: top center;
+  animation-timeline: view();
+  opacity: 0;
+}
+
+@keyframes fadeInScale {
+  0% {
+    transform: scaleY(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+} */
