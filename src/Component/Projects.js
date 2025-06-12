@@ -14,7 +14,6 @@ function Projects() {
       addToProjectList('e-Commerce', 'ahmedSayedGreatProject', 'ay7aga')
     );
   }, []);
-  console.log(projects);
   return (
     <div>
       <div className="container project-container">

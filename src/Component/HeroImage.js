@@ -19,7 +19,6 @@ function HeroImage({ name, title }) {
         if (titleIndex1.current === -1) {
           titleIndex1.current = 0;
         }
-        console.log(titleIndex1.current);
         if (titleIndex.current < title[titleIndex1.current].length - 1) {
           titleIndex.current++;
           setTextJob(

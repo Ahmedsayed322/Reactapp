@@ -4,12 +4,13 @@
   animation: fadeInScale 1s ease-out both;
   animation-timeline: view(); /* experimental: works in Chrome/Safari only */
   transform-origin: top center;
+
 }
 
 @keyframes fadeInScale {
   0% {
-    transform: scale(0.9);
-    opacity: 0;
+      transform: scale(0.9);
+      opacity: 0;
   }
   100% {
     transform: scale(1);
